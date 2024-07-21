@@ -1,0 +1,32 @@
+.control-panel-container {
+    margin-top: 80px; 
+  }
+  
+  .cta-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .logged-in-message, .default-message {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

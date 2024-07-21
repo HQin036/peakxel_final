@@ -1,0 +1,32 @@
+.chatbot-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chatbot-toggle-button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-toggle-button:hover {
+  background-color: #005bb5;
+}
+
+.chatbot-container {
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}

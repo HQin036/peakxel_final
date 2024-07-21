@@ -1,0 +1,96 @@
+.hero-background {
+    background-color: #f5f5f7; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .hero-section {
+    min-height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem; 
+  }
+  
+  .logo-image {
+    width: 10%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .typing-effect-container {
+    margin-top: 2rem; 
+  }
+  
+  .typing-effect-container .main-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 2px;
+    background-color: #e1e1e1; 
+    margin: 4rem 0;
+  }
+  
+  .why-choose-us-section {
+    margin-top: 2rem; 
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .translucent-box {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; 
+    text-align: center;
+    margin-top: 2rem; 
+  }
+  
+  .why-choose-us p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    background-color: #007aff; 
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .footer {
+    background-color: #f5f5f7;
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 1px solid #e1e1e1;
+    margin-top: auto;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #888;
+  }
+  
